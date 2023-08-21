@@ -11,9 +11,10 @@ public class Main {
     }
     // create class b which ihnerits the properties of class a
     public static class B extends A{
-//        public String meth(){
-//            return "Method is overridden in Extendend class B";
-//        }
+        @Override
+        public String meth(){
+        return "Method is overridden in Extendend class B";
+        }
     }
     public static void main (String[] args){
            // create object of child class and call the parent method
